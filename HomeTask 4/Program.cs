@@ -102,12 +102,10 @@ namespace HomeTask_4
             return b;
         }
 
-        static long Fibonachi(int c)
+        static ulong Fibonachi(int c)
         {
 
-            if (c == 0)       
-                return 0;
-            if (c == 1)
+            if (c == 0 || c== 1)       
                 return 1;
             else
                 return Fibonachi(c - 2) + Fibonachi(c - 1);
@@ -116,7 +114,7 @@ namespace HomeTask_4
         static void Main(string[] args)
         {
             //Задание 1. Вывод ФИО.
-
+            /*
             string name1 = GetFullName();
             string name2 = GetFullName();
             string name3 = GetFullName();
@@ -141,7 +139,7 @@ namespace HomeTask_4
             Console.WriteLine($"А по русски будет {RusSeason(b)}!");
             Console.ReadLine();
             Console.Clear();
-            
+            */
             //Задание 4. Написать программу вычисляющую число Фибоначчи.
             Console.WriteLine("Введите целое число, а я посчитаю число Фибоначчи введенного Вами значения");
             int c = int.Parse(Console.ReadLine());
