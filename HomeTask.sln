@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeTask 2", "HomeTask\HomeTask 2.csproj", "{D214A232-36E5-490F-8D6E-A2FF6B739B7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home Task 3", "Home Task 3\Home Task 3.csproj", "{F4D94867-D17A-4C2A-8A70-B3D462A24840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Home Task 3", "Home Task 3\Home Task 3.csproj", "{F4D94867-D17A-4C2A-8A70-B3D462A24840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeTask 4", "HomeTask 4\HomeTask 4.csproj", "{28CD52F7-8B2C-42DA-9FEF-93ED295D3B15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F4D94867-D17A-4C2A-8A70-B3D462A24840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4D94867-D17A-4C2A-8A70-B3D462A24840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4D94867-D17A-4C2A-8A70-B3D462A24840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CD52F7-8B2C-42DA-9FEF-93ED295D3B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CD52F7-8B2C-42DA-9FEF-93ED295D3B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CD52F7-8B2C-42DA-9FEF-93ED295D3B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CD52F7-8B2C-42DA-9FEF-93ED295D3B15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
